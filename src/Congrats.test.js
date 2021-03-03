@@ -6,6 +6,10 @@ import Congrats from './Congrats';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
+const setup = (props={}) => {
+  return shallow(<Congrats {...props} />)
+}
+
 test('renders without error', () => {
 
 });
