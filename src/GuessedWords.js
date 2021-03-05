@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 const GuessedWords = (props) => {
   return (
-    <div />
+    <div data-test="component-guessed-words">
+
+    </div>
   );
 };
 
