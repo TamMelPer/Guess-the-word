@@ -10,7 +10,11 @@ const GuessedWords = (props) => {
       </span>
     );
   } else {
-    
+    contents = (
+    <span data-test="guessed-words">
+    Guessed words:
+    </span>
+    );
   }
   return (
     <div data-test="component-guessed-words">
